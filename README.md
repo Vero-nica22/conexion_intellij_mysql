@@ -26,11 +26,11 @@ GET /api/productos/{id}: Obtiene un producto por su ID.
 
 DELETE /api/productos/{id}: Elimina un producto por su ID.
 
-# Uso de Postman
+## Uso de Postman
 
-## Configuración de Postman
+### Configuración de Postman
 
-### gregar un Producto
+#### gregar un Producto
 1. Abre Postman.
 2. Selecciona el método **POST**.
 3. Ingresa la URL: `http://localhost:8080/api/productos`.
@@ -41,7 +41,7 @@ DELETE /api/productos/{id}: Elimina un producto por su ID.
        "nombre": "Producto 3",
        "precio": 200.0
    }
-### Agregar un Producto
+#### Agregar un Producto
 1. Abre Postman.
 
 2. Selecciona el método GET.
