@@ -14,7 +14,7 @@ Este proyecto es una API REST para gestionar productos. Está desarrollado utili
 - Crea una base de datos llamada proyectodemodb.
 
 ### Configuración de archivo conexión
-- Configura el archivo application.properties con tu usuario y contraseña
+- Configura el archivo application.properties con tu usuario, contraseña y la URL de la base de datos.
 
 ## Endpoints
 
@@ -50,3 +50,11 @@ DELETE /api/productos/{id}: Elimina un producto por su ID.
 
 4. Haz clic en Send para enviar la solicitud y ver el producto.
 
+## Notas adicionales
+### Dependencias principales:
+ - Spring Web: Para crear APIs REST.
+ - Spring Data JPA: Para manejar la base de datos con JPA.
+ - MySQL Driver: Conector para MySQL.
+ - Spring Boot DevTools (opcional).
+
+##Gracias
