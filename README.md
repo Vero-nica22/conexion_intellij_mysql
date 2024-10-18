@@ -8,15 +8,15 @@ Este proyecto es una API REST para gestionar productos. Está desarrollado utili
    ```sh
    git clone https://github.com/Vero-nica22/conexion_intellij_mysql.git
 
-###Configura la base de datos
+## Configura la base de datos
 - Asegúrate de tener MySQL instalado y ejecutándose.
 
 - Crea una base de datos llamada proyectodemodb.
 
-###Configuración de archivo conexión
+## Configuración de archivo conexión
 - Configura el archivo application.properties con tu usuario y contraseña
 
-##Endpoints
+## Endpoints
 
 GET /api/productos: Lista todos los productos.
 
@@ -41,7 +41,7 @@ DELETE /api/productos/{id}: Elimina un producto por su ID.
        "nombre": "Producto 3",
        "precio": 200.0
    }
-###Agregar un Producto
+### Agregar un Producto
 1. Abre Postman.
 
 2. Selecciona el método GET.
