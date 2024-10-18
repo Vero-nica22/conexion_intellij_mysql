@@ -46,7 +46,7 @@ DELETE /api/productos/{id}: Elimina un producto por su ID.
 
 2. Selecciona el método GET.
 
-3. Ingresa la URL: http://localhost:8080/api/productos/{id}, reemplazando {id} con el ID del producto que deseas obtener.
+3. Ingresa la URL: `http://localhost:8080/api/productos/{id}`, reemplazando {id} con el ID del producto que deseas obtener.
 
 4. Haz clic en Send para enviar la solicitud y ver el producto.
 
@@ -57,4 +57,4 @@ DELETE /api/productos/{id}: Elimina un producto por su ID.
  - MySQL Driver: Conector para MySQL.
  - Spring Boot DevTools (opcional).
 
-##Gracias
+## Gracias
